@@ -1,0 +1,84 @@
+<!DOCtype html>
+  <html lang "en">
+<head>
+  <meta name="apple-mobile-web-capable" content="yes">
+  <meta chatset="utf-8>
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+
+  <title>Daniel Cox Design</title>
+
+  <link rel="stylesheet" type="text/css" href="http://iamdanielcox.com/css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript">
+    function hgsubmit()
+    {
+    if (/\S+/.test(document.hgmailer.name.value) == false) alert ("Please provide your name.");
+    else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) == false) alert ("A valid email address is required.");
+     else if (/\S+/.test(document.hgmailer.comment.value) == false) alert ("A message is required");
+      else {
+           document.hgmailer.submit();
+           alert ('Thank you!\nYour message has been sent.');
+           }
+    }
+    </script> 
+  </head>
+
+<body>
+<header>
+
+  <nav>
+      <div class="nav-port">
+    <a class="scroll-on-page-link" href="#scroll-1">About Me</a>
+    <a class="scroll-on-page-link" href="#cus-projects">Portfolio</a>
+    <a class="scroll-on-page-link" href="#scroll-3">Contact</a>
+      </div>
+  </nav>
+  <h1><span>Daniel Cox</span></h1>
+  <p class="kicker">Thinker // Musician // Designer</p>
+
+</header>
+  
+  <section id="infomgt">
+    <h3 id="scroll-1">About Myself</h3>
+
+    <div class="ccface">
+    </div>
+    <p class="aboutsec"><strong>Hello! My Name is Daniel Cox</strong> Thanks for coming to my website. I am a Nashville Native who works in Franklin, Tn for <a href="http://corecommerce.com"target="_blank">CoreCommerce</a>. I am a self-taught web designer who has a strong passion for learning so I can better perfect my craft. As I mentioned, I am also a musician, I have been playing guitar for over 13 years and have played locally with many Nashville base bands over the years. I enjoy sci-fi films, traveling, and spending time with my family.
+    <br>
+    <br>
+    <br>
+        </section>
+        
+    <section id="cus-projects">
+    <div class="port-soon">
+ <h1 class="projects">Portfolio Coming soon</h1>
+    </div>
+    </section>
+    
+      <section>
+ <!--Contact here-->
+ <div id="footer-content" class="elmnt-inner">
+      <form action="http://www.mydomain.com/cgi-sys/formmail.pl" method="post" name="hgmailer">
+<input type="hidden" name="recipient" value="admin@iamdaniel.cox.com">
+<input type="hidden" name="subject" value="FormMail E-Mail">
+Projects or Questions? Let's talk<br><br>
+Name: <input type="text" name="name" size="30" value=""><br>
+E-Mail: <input type="text" name="email" size="30" value=""><br>
+Message: <textarea name="comment" cols="50" rows="5"></textarea><br><br>
+<input type="button" value="Submit" onclick="hgsubmit();">
+<input type="hidden" name="redirect" value="http://iamdaniel.cox.com/">
+  </form> 
+      </section>
+  </div>
+
+<footer>
+  <div class="lockup">
+    <div class="content-wrap">
+      <p class="copyright"> All content copyright 2014</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
